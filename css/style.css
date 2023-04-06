@@ -1,0 +1,171 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+	background: url(../image/Background.jpg);
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: cover;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.Compass {
+	position: relative;
+	padding: 2rem 2rem calc(2rem + 70px);
+
+	background-color: #f8f3e5;
+	border-radius: 8px;
+	box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+	width:  600px;
+    min-width: 600px;
+	max-width: 95vw;
+	overflow: hidden;
+}
+
+.title{
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	text-align: center;
+	margin: 0;
+}
+
+
+.title_before {
+	text-align: center;
+
+	padding: 1.5rem ;
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 0;
+}
+
+.title_info {
+	text-align: center;
+
+	font-size: 1.2rem;
+	
+		text-indent: 20px;
+}
+
+
+.summary {
+	text-align: center;
+	margin: 0.5rem 0 1rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+
+
+.result {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.Compass-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.Compass-list li {
+	font-size: 1.2rem;
+}
+
+.Compass-list label {
+	cursor: pointer;
+	width: 100%;
+    display: block;
+	padding: 1rem 0.5rem;
+}
+
+.Compass-list label:hover {
+	background-color: #e8f6fe		;
+}
+
+.Compass-list label.disabled {
+	cursor: no-drop;
+}
+
+.Compass-list label.disabled:hover {
+	cursor: no-drop;
+	background-color: transparent;
+}
+
+.Compass-list input[type="radio"] {
+	margin-right: 10px;
+}
+
+.Compass-submit {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 70px;
+	line-height: 10px;
+}
+
+.submit {
+	background-color: #30637f	;	
+	color: #fff;
+	border: none;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	font-size: 1.1rem;
+	font-family: inherit;
+}
+
+.submit:hover {
+	background-color: 	#4490b8 ;
+}
+
+.submit:focus {
+	outline: none;
+	background-color: #1d3d4e;   
+}
+
+.general {
+	background-position: center ;
+	background-size: cover;
+}
+
+.Коммунист {
+	background: url(../image/imgResult/Lenin.jpg);
+	background-position: center ;
+	background-size: cover;
+}
+
+.Консерватор {
+	background: url(../image/imgResult/Conservative.jpg);
+	background-position: center ;
+	background-size: cover;
+}
+
+.Социал-демократ {
+	background: url(../image/imgResult/social-democrat.jpg);
+	background-position: center ;
+	background-size: cover;
+}
+
+.Либерал {
+	background: url(../image/imgResult/Liberal.jpg);
+	background-position: center ;
+	background-size: cover;
+}
+
+
+
+
+
+
